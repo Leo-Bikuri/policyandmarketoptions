@@ -11,8 +11,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <style >
          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ropa+Sans&display=swap');
-         body{
+         body {
              font-family: 'Ropa Sans', sans-serif;
+         }
+         .carousel-item{
+             height: 500px;
          }
      </style>
     <title>Policy and Market Options</title>
