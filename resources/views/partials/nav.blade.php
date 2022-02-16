@@ -5,7 +5,7 @@
              <p class="my-auto ms-4" style="color: #320592; font-size: 30px;  font-weight: bold">Policy and Market Options</p>
         </div>
         <div class="col-3 my-auto text-center">
-            <button class="btn btn-outline-warning">Staff Email</button>
+            <button class="btn btn-outline-warning rounded-pill">Staff Email</button>
         </div>
     </div>
     <hr style="background-color: #320592; height:1.5px;">
