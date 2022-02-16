@@ -10,7 +10,6 @@
     </div>
     <hr style="background-color: #320592; height:1.5px;">
     <div class="row">
-{{--        <div class="col-9">--}}
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +23,13 @@
                             <a class="nav-link" href="#" style="color: #320592;">Contact</a>
                             <a class="nav-link" href="#" style="color: #320592;">Portfolio</a>
                             <a class="nav-link" href="#" style="color: #320592;">Latest work</a>
-                            <div class="ms-auto">
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@policyandmarkets.org" target="_blank" class="nav-link"><p>info@policyandmarkets.org</p></a>
-                            </div>
+                        </div>
+                        <div class="navbar-nav ms-auto">
+                            <a href="mailTo:info@policyandmarkets.org" target="_blank" class="nav-link my-auto">info@policyandmarkets.org</a>
+                            <a class="nav-link" href="#" style="color: #320592;">+254 759 452087</a>
                         </div>
                     </div>
                 </div>
             </nav>
-{{--        </div>--}}
     </div>
 </div>
