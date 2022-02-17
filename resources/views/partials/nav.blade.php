@@ -5,7 +5,9 @@
              <p class="my-auto ms-4" style="color: #320592; font-size: 30px;  font-weight: bold">Policy and Market Options</p>
         </div>
         <div class="col-3 my-auto text-center">
-            <button class="btn btn-outline-warning rounded-pill">Staff Email</button>
+            <a href="https://webmail1.hostinger.com/" target="_blank">
+                <button class="btn btn-outline-warning rounded-pill">Staff Email</button>
+            </a>
         </div>
     </div>
     <hr style="background-color: #320592; height:1.5px;">
