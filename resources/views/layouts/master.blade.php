@@ -6,9 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="{{asset('MDBootstrap-5/css/mdb.min.css')}}">
-    <link href="{{asset('MDBootstrap-5/css/mdb.rtl.min.css')}}">
-    <link href="{{asset('MDBootstrap-5/js/mdb.min.js')}}">
     <script src="https://kit.fontawesome.com/1b51ddf955.js" crossorigin="anonymous"></script>
     <link rel="icon" href="{{asset('/images/favicon.png')}}">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -33,6 +30,9 @@
              opacity: 1;
          }
          .patner-logo{
+             width: 120px;
+         }
+         .patner-logo.landolakes{
              width: 200px;
          }
          .method{
@@ -100,13 +100,20 @@
          .socials li:nth-child(5) a:hover .fab {
              color: #e4405f;
          }
-
+         .read-more:hover{
+             transform: translateY(5px);
+             transition: 0.5s;
+         }
      </style>
     <title>Policy and Market Options</title>
 </head>
 <body>
 @include('partials.nav')
+
 @yield('content')
+
+@include('partials.footer')
+
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
  <script src="{{asset('/js/fade.js')}}"></script>
 </body>
