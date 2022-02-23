@@ -20,3 +20,26 @@ Route::get('/', function () {
 Route::get('about', function(){
    return view('about');
 })->name('about');
+
+
+Route::get('food-safety', function(){
+    return view('safety');
+})->name('safety');
+
+Route::get('enterprise-development', function(){
+    return view('enterprise');
+})->name('enterprise');
+
+Route::get('inclusive-value-chains', function(){
+    return view('inclusive');
+})->name('inclusive');
+
+Route::get('research-and-knowledge-disssemination', function(){
+    return view('research');
+})->name('research');
+
+Route::get('contact-us', function(){
+    return view('contact');
+})->name('contact');
+
+

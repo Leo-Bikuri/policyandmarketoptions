@@ -21,8 +21,7 @@
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="#" style="color: #320592;">Home</a>
                             <a class="nav-link" href="{{route('about')}}" style="color: #320592;">About Us</a>
-                            <a class="nav-link" href="#" style="color: #320592;">Services</a>
-                            <a class="nav-link" href="#" style="color: #320592;">Contact</a>
+                            <a class="nav-link" href="{{route('contact')}}" style="color: #320592;">Contact</a>
                             <a class="nav-link" href="#" style="color: #320592;">Portfolio</a>
                             <a class="nav-link" href="#" style="color: #320592;">Latest work</a>
                         </div>
