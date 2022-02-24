@@ -7,7 +7,7 @@
         <p class="text-warning text-center pt-3" style="font-size: 40px;  font-weight: bold">What we do</p>
         <div class="row">
             <div class="col-6 text-center border-end border-warning">
-                <img src="{{ asset('/images/safety.jpg') }}" class="" alt="" style="height: 230px; ">
+                <img src="{{ asset('/images/safety1.jpg') }}" class="" alt="" style="height: 230px; ">
             </div>
             <div class="col-6">
                 <h2 style="color:#320592;" class="text-center">Food Safety</h2>

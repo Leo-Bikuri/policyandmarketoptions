@@ -41,29 +41,29 @@
 
      <div class="container mb-5 h-50 text-center">
          <p class="text-warning text-center pt-3" style="font-size: 40px;  font-weight: bold">Our Partners</p>
-            <div class="row d-flex justify-content-around mx-0 method">
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/1.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/2.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/14.jpg')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/3.png')}}" alt="" class="patner-logo mt-0"></div>
+            <div class="row d-flex justify-content-around mx-0">
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/1.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/2.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/14.jpg')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/3.png')}}" alt="" class="patner-logo mt-0"></div>
 
             </div>
-             <div class="row d-flex justify-content-around mx-0 method">
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/4.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/5.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/6.png')}}" alt="" class="patner-logo mt-0"></div>
-                 <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/13.png')}}" alt="" class="patner-logo mt-0"></div>
+             <div class="row d-flex justify-content-around mx-0">
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/4.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/5.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/6.png')}}" alt="" class="patner-logo mt-0"></div>
+                 <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/13.png')}}" alt="" class="patner-logo mt-0"></div>
              </div>
-             <div class="row d-flex justify-content-around mx-0 method">
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/7.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/8.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/9.png')}}" alt="" class="patner-logo"></div>
-                 <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/10.png')}}" alt="" class="patner-logo mt-0"></div>
+             <div class="row d-flex justify-content-around mx-0">
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/7.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/8.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/9.png')}}" alt="" class="patner-logo"></div>
+                 <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/10.png')}}" alt="" class="patner-logo mt-0"></div>
              </div>
-            <div class="row d-flex justify-content-around mx-0 method">
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/11.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/12.png')}}" alt="" class="patner-logo mt-0"></div>
-                <div class="col-3 flex-column align-self-center"><img src="{{asset('/images/partners/15.png')}}" alt="" class="patner-logo mt-0 landolakes"></div>
+            <div class="row d-flex justify-content-around mx-0">
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-right" data-aos-duration="2000"><img src="{{asset('/images/partners/11.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up" data-aos-duration="2000"><img src="{{asset('/images/partners/12.png')}}" alt="" class="patner-logo mt-0"></div>
+                <div class="col-3 flex-column align-self-center" data-aos="fade-up-left" data-aos-duration="2000"><img src="{{asset('/images/partners/15.png')}}" alt="" class="patner-logo mt-0 landolakes"></div>
 
             </div>
 

@@ -27,7 +27,7 @@
                                     <input type="text" class="form-control" name="subject" placeholder="Subject" data-form-field="Subject">
                                 </div>
                                 <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Message" rows="5" data-form-field="Message"></textarea>
                                 </div>
                                 <div class="mt-3 text-center">
                                     <button type="submit" class="btn text-warning rounded-pill" style="background: transparent; border: solid 2px #320592; min-width: 100px;">SEND</button>

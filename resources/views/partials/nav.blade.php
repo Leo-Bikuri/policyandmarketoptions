@@ -19,11 +19,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#" style="color: #320592;">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/" style="color: #320592;">Home</a>
                             <a class="nav-link" href="{{route('about')}}" style="color: #320592;">About Us</a>
                             <a class="nav-link" href="{{route('contact')}}" style="color: #320592;">Contact</a>
                             <a class="nav-link" href="#" style="color: #320592;">Portfolio</a>
-                            <a class="nav-link" href="#" style="color: #320592;">Latest work</a>
+                            <a class="nav-link" href="{{asset('/documents/Profile.docx')}}" download="PMO profile" style="color: #320592;">Our Profile</a>
                         </div>
                         <div class="navbar-nav ms-auto">
                             <a href="mailTo:info@policyandmarkets.org" target="_blank" class="nav-link my-auto">info@policyandmarkets.org</a>

@@ -19,20 +19,20 @@ $(window).on("load",function() {
     } fade(true); //fade elements on page-load
     $(window).scroll(function(){fade(false);}); //fade elements on scroll
 
-        $('.method:eq(0)').delay(1000).animate({opacity: 1}, 'slow', function () {
-            $(this).find('h4').css('background-color', '#B5C3D5');
-        });
-        $('.method:eq(1)').delay(2000).animate({opacity: 1}, 'slow', function () {
-            $(this).find('h4').css('background-color', '#B5C3D5');
-        });
-        $('.method:eq(2)').delay(3000).animate({opacity: 1}, 'slow', function () {
-            $(this).find('h4').css('background-color', '#B5C3D5');
-        });
-        $('.method:eq(3)').delay(4000).animate({opacity: 1}, 'slow', function () {
-            $(this).find('h4').css('background-color', '#B5C3D5');
-        });
-        $('.method:eq(4)').delay(5000).animate({opacity: 1}, 'slow', function () {
-            $(this).find('h4').css('background-color', '#B5C3D5');
-        });
+        // $('.method:eq(0)').delay(1000).animate({opacity: 1}, 'slow', function () {
+        //     $(this).find('h4').css('background-color', '#B5C3D5');
+        // });
+        // $('.method:eq(1)').delay(2000).animate({opacity: 1}, 'slow', function () {
+        //     $(this).find('h4').css('background-color', '#B5C3D5');
+        // });
+        // $('.method:eq(2)').delay(3000).animate({opacity: 1}, 'slow', function () {
+        //     $(this).find('h4').css('background-color', '#B5C3D5');
+        // });
+        // $('.method:eq(3)').delay(4000).animate({opacity: 1}, 'slow', function () {
+        //     $(this).find('h4').css('background-color', '#B5C3D5');
+        // });
+        // $('.method:eq(4)').delay(5000).animate({opacity: 1}, 'slow', function () {
+        //     $(this).find('h4').css('background-color', '#B5C3D5');
+        // });
 
 });
