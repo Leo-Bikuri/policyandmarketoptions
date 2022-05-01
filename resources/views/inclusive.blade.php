@@ -3,9 +3,9 @@
 @section('content')
 
     <div class="container" >
-        <div class="row" style="background-image: url('{{asset('/images/safety.jpg')}}'); background-size: cover; background-position-y: center; background-repeat: no-repeat; min-height: 300px;">
+        <div class="row" style="background-image: url('{{asset('/images/inclusive.jpg')}}'); background-size: cover; background-position-y: center; background-repeat: no-repeat; min-height: 300px;">
             <div class="col" style="min-height: 300px; background: rgba(0,0,0,0.5);">
-                <p class="text-center d-flex align-items-end justify-content-start text-warning h-100" style="font-size: 100px; font-weight: bold">Inclusive Value Chains </p>
+                <p class="text-center d-flex align-items-end justify-content-start text-warning h-100" style="font-size: 75px; font-weight: bold">Inclusive Value Chains </p>
             </div>
         </div>
     </div>

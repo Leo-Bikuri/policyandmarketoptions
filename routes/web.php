@@ -38,8 +38,9 @@ Route::get('research-and-knowledge-disssemination', function(){
     return view('research');
 })->name('research');
 
-Route::get('contact-us', function(){
-    return view('contact');
-})->name('contact');
+
+route::get('profile', function(){
+    return view('profile');
+})->name('profile');
 
 

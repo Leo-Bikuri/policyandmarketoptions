@@ -17,6 +17,9 @@
     <link rel="icon" href="{{asset('/images/favicon.png')}}">
 {{--    BOOTSTRAP JAVASCRIPT AND POPPER LIBRARY--}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+{{-- ACCUSOFT PDF VIEWER --}}
+<script src="https://cdn.jsdelivr.net/npm/@accusoft/pdf-viewer@3/bundle.js"></script>
+
      <style >
          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ropa+Sans&display=swap');
          body {
@@ -116,6 +119,10 @@
          .contact-form-wrapper {
              padding: 50px 0;
          }
+        embed {
+            width: 100%;
+            height: 100vh;
+        }
 
          .contact-form {
              padding: 30px 40px;

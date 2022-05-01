@@ -1,9 +1,8 @@
-<footer class="w-100 py-4 flex-shrink-0 bg-warning mt-5">
-    <div class="container py-4">
+<footer class="w-100  flex-shrink-0 bg-warning mt-5">
+    <div class="container">
         <div class="row gy-4 gx-5">
             <div class="col-lg-4 col-md-6">
-                <h5 class="h1 text-black">Policy and Market Options</h5>
-                <p class="small text-muted">Providing market driven solutions for Enterprise development</p>
+                <h5 class="h2 text-black">Policy and Market Options</h5>
                 <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Policy and Market Options</a></p>
             </div>
             <div class="col-lg-4 col-md-6 text-center">

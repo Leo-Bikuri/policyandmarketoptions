@@ -6,13 +6,16 @@
      <div id="carousel" class="carousel slide  mx-auto w-75 mt-5 mb-5" data-bs-ride="carousel">
          <div class="carousel-inner">
              <div class="carousel-item active home-carousel" data-bs-interval="10000">
-                 <img src="{{asset('images/carousel-1.jpg')}}" class="d-block w-100 h-100" alt="...">
+                 <img src="{{asset('images/carousel/carousel-1.jpg')}}" class="d-block w-100 h-100" alt="...">
              </div>
              <div class="carousel-item home-carousel" data-bs-interval="2000">
-                 <img src="{{asset('images/2.jpg')}}" class="d-block w-100 h-100" alt="...">
+                 <img src="{{asset('images/carousel/carousel-2.jpg')}}" class="d-block w-100 h-100" alt="...">
              </div>
              <div class="carousel-item home-carousel">
-                 <img src="{{asset('images/3.jpg')}}" class="d-block w-100 h-100" alt="...">
+                 <img src="{{asset('images/carousel/carousel-3.jpg')}}" class="d-block w-100 h-100" alt="...">
+             </div>
+             <div class="carousel-item home-carousel">
+                 <img src="{{asset('images/carousel/carousel-4.jpg')}}" class="d-block w-100 h-100" alt="...">
              </div>
          </div>
          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
